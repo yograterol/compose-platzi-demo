@@ -1,0 +1,5 @@
+app:
+  build: .
+  command: python app.py
+  ports: 
+    - "3000:3000"
